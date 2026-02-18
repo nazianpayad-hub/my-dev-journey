@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazian Payad | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Nazian Payad</div>
+
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#github">GitHub</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+        <div class="home-text">
+            <h1>Hello, I'm <span>Nazian</span></h1>
+            <p>Aspiring IT Support Specialist</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+        <div class="home-img">
+            <img src="your-image.jpg" alt="Nazian">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am passionate about technology, troubleshooting, and helping people solve technical problems.
+            Currently improving my skills in web development and IT support.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+            <div class="skill-box">JavaScript</div>
+            <div class="skill-box">Networking Basics</div>
+            <div class="skill-box">Troubleshooting</div>
+        </div>
+    </section>
+
+    <!-- GITHUB -->
+    <section id="github">
+        <h2>My GitHub</h2>
+        <p>Check out my projects and repositories.</p>
+        <a href="https://github.com/yourusername" target="_blank" class="btn">Visit GitHub</a>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
